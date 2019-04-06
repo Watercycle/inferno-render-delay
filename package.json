@@ -13,6 +13,10 @@
   ],
   "author": "Matthew Spero",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Watercycle/inferno-render-delay.git"
+  },
   "peerDependencies": {
     "inferno": ">= 3.0.0"
   },
