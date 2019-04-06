@@ -1,0 +1,19 @@
+{
+  "name": "inferno-render-delay",
+  "version": "1.0.0",
+  "description": "Delay the re-rendering of a pure component by a set amount of time.",
+  "main": "src/withRenderDelay.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "inferno",
+    "render",
+    "delay"
+  ],
+  "author": "Matthew Spero",
+  "license": "MIT",
+  "peerDependencies": {
+    "inferno": ">= 3.0.0"
+  },
+}
