@@ -1,6 +1,6 @@
 {
   "name": "inferno-render-delay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Delay the re-rendering of a pure component by a set amount of time.",
   "main": "src/withRenderDelay.jsx",
   "scripts": {
