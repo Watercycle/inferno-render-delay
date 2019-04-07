@@ -1,7 +1,7 @@
 Inferno Render Delay
 ===========================
 
-[![npm version](https://badge.fury.io/js/inferno-render-delay.svg)](https://www.npmjs.com/package/inferno-render-delay)
+[![npm version](https://badge.fury.io/js/inferno-render-delay.svg)](https://badge.fury.io/js/inferno-render-delay)
 
 Delay the (re)rendering of stateless components by a set amount of time.
 
