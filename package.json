@@ -1,9 +1,10 @@
 {
   "name": "inferno-render-delay",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Delay the re-rendering of a pure component by a set amount of time.",
-  "main": "src/withRenderDelay.jsx",
+  "main": "dist/withRenderDelay.jsx",
   "scripts": {
+    "build": "webpack --config webpack.config.js --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,6 +17,16 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Watercycle/inferno-render-delay.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-inferno": "^6.0.5",
+    "inferno": "^7.1.11",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   },
   "peerDependencies": {
     "inferno": ">= 3.0.0"
