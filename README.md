@@ -25,12 +25,15 @@ function withRenderDelay(wrappedComponent, options?)
 - `wrappedComponent`: The stateless component to be delayed.
 
 - `options`
-  - `delay` _(number)_: Length of the delay in millisceonds. Defaults to 1.
+  - `delay` _(number)_: Milliseconds to wait before (re)rendering. Defaults to 1.
   - `delayFirstRender` _(bool)_: True to delay the initial render. Defaults to false.
 
 # Example
 
 ```jsx harmony
+import {render} from 'inferno'
+import withRenderDelay from 'inferno-render-delay'
+
 const Message = (props) => <p>{props.text}</p>
 const DelayedMessage = withRenderDelay(Message, { delay: 500, delayFirstRender: true })
 
@@ -51,16 +54,11 @@ No Delay  | Delay
 ------|------
 ![no-delay-computation](examples/images/no-delay-text.gif) | ![delay-computation](examples/images/delay-text.gif)
 
-
-----
-
 #### Deferring Expensive Computations
 
 No Delay  | Delay
 ------|------
 ![no-delay-computation](examples/images/no-delay-computation.gif) | ![delay-computation](examples/images/delay-computation.gif)
-
-----
 
 #### Waiting For User Input
 
